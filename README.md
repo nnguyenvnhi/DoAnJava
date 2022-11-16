@@ -8,6 +8,6 @@ Step 2: Download the code at this repo.
 
 Step 3: Create a new folder.
 
-Step 4: Extract code just has downloaded into that folder.
+Step 4: Extract code just has been downloaded into that folder.
 
 Step 5: Run Android studio, click File->Open folder-> choose that folder.
