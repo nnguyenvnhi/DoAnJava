@@ -1,4 +1,6 @@
 # DoAnJava
+FOR THOSE WHO DON'T KNOW HOW TO USE GITHUB.
+
 Step 1: Download "Android studio" at 
   "https://developer.android.com/studio?gclid=Cj0KCQiAsdKbBhDHARIsANJ6-jf3YXFWZzMmgn8rpxuG1GagdAowFpAH5qN7ehIq89W-dusDeIY7B5EaAplzEALw_wcB&gclsrc=aw.ds"
 
