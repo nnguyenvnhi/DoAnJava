@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navPhieuMuon"
+            android:icon="@drawable/emone"
+            android:title="@string/menu_phieumuon"/>
+        <item
+            android:id="@+id/navcHAO"
+            android:icon="@drawable/emtwo"
+            android:title="@string/menu_chao"/>
+        <item
+            android:id="@+id/navLoaiSach"
+            android:icon="@drawable/bookicon"
+            android:title="@string/menu_loaisach" />
+
+        <item
+            android:id="@+id/navSach"
+            android:icon="@drawable/book2"
+            android:title="@string/menu_sach" />
+        <item
+            android:id="@+id/navThanhVien"
+            android:icon="@drawable/businessman_48px"
+            android:title="@string/menu_thanhvien" />
+    </group>
+    <item android:title="Thống Kê">
+        <menu>
+            <item android:title="@string/menu_top10"
+                android:id="@+id/sub_Top"
+                android:icon="@drawable/export_50px"/>
+            <item android:title="@string/menu_doanhthu"
+                android:id="@+id/sub_DoanhThu"
+                android:icon="@drawable/doanhthu"/>
+        </menu>
+    </item>
+    <item android:title="Người Dùng">
+        <menu>
+            <item android:title="@string/menu_themNguoiDung"
+                android:visible="false"
+                android:id="@+id/sub_ThemUser"
+                android:icon="@drawable/addper"/>
+            <item android:title="@string/menu_doiMk"
+                android:id="@+id/sub_DoiMK"
+                android:icon="@drawable/key_50px"/>
+            <item android:title="@string/menu_dangXuat"
+                android:id="@+id/sub_DangXuat"
+                android:icon="@drawable/export_50px"/>
+        </menu>
+    </item>
+
+</menu>

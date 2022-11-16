@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="15dp"
+    android:elevation="8dp"
+    android:layout_height="wrap_content"
+    android:background="#dcdcdc">
+
+
+    <TextView
+        android:id="@+id/txtngaydat"
+        android:textColor="#008000"
+        android:textSize="23sp"
+        android:text="03/06/2022"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_margin="10dp"
+        android:background="#ff0000"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:padding="3dp"
+            android:textColor="#ff0000"
+            android:textSize="20sp"
+            android:text="Mã sách"
+            android:id="@+id/tvMaSach"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+
+            android:padding="3dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="Tên sách"
+            android:id="@+id/tvTenSach"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+
+            android:padding="3dp"
+            android:textColor="#008000"
+            android:textSize="18sp"
+            android:text="Gia"
+            android:id="@+id/tvGiaThue"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+
+            android:padding="3dp"
+            android:textColor="#8b0000"
+            android:textSize="18sp"
+            android:text="Loại"
+            android:id="@+id/tvLoai"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+
+            android:padding="3dp"
+            android:textColor="#2f4f4f"
+            android:textSize="18sp"
+            android:text="Nhà cung cấp"
+            android:id="@+id/tvGNhacungcap"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:id="@+id/imgDeleteLS"
+            android:layout_height="85dp"
+            android:layout_weight="10"
+            android:layout_marginTop="-150dp"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/ic_delete"/>
+    </LinearLayout>
+
+</LinearLayout>
